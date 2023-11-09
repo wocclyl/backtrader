@@ -107,6 +107,7 @@ class MetaStrategy(StrategyBase.__class__):
 class Strategy(with_metaclass(MetaStrategy, StrategyBase)):
     '''
     Base class to be subclassed for user defined strategies.
+    阿斯顿发斯蒂芬
     '''
 
     _ltype = LineIterator.StratType
